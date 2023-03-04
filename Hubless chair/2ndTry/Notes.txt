@@ -1,0 +1,2 @@
+maybe adjustrable bearings distance
+wall needs to be inside, to keep dsitance between two the parralel

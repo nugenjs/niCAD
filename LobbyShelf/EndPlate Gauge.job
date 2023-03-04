@@ -1,0 +1,1624 @@
+[Cutoff]
+Angle threshold=0.5
+BelongsTo=-1
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=2
+Cut depth=0
+Cut direction=0.5
+Cutting rules=0
+Edge overlap=5.001259999999999
+Enabled=0
+Feed rate=1.00076
+Finish allowance=0
+Grid size=49.999899999999997
+Hole Size=0
+ID=-1
+Layer=
+Lead in=-1
+Lead in type=0
+Lead out=-1
+Lead out type=0
+Leadins on open paths=0
+Length=1.00076
+Maximum X size=2000.001080000000002
+Maximum Y size=2000.001080000000002
+Minimum X size=499.998999999999967
+Minimum Y size=499.998999999999967
+Name=
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=99.999799999999993
+Remnants must be rectangular=0
+Reverse open paths=0
+Start depth=0
+Start position=0
+Tool=1
+Type=RemnantOperation
+[Cutoff/Custom]
+[Misc]
+Count=1
+FileVersion=1003
+optBias=0.5
+Optimisation=1
+Template=0
+[OpOrder]
+[Part 0]
+Angle=0
+copyOf=-1
+DrawingDate=1427012531
+DrawingFile=D:\PlasmaCam\EndPlate Gauge.dxf
+enabled=1
+HRef=0
+Locked=0
+name=EndPlate Gauge
+VRef=0
+XPos=25.400000000000034
+YPos=14.287500000000136
+[Part 0/GroupSources]
+[Part 0/Operation0]
+Angle threshold=0
+BelongsTo=-1
+CodeSnip=-1
+Comment=
+Contour method=0
+Corner threshold=0
+Cut depth=0
+Cut direction=0.5
+Cutting rules=1
+Enabled=1
+Feed rate=3302
+Finish allowance=0
+Hole Size=3.175
+ID=1
+Layer=Hole
+Lead in=3.175
+Lead in type=1
+Lead out=3.175
+Lead out type=0
+Leadins on open paths=0
+Length=1.00076
+Loop corners=1
+Loop size=0
+Max chain length=0
+Minimise thermal distortion=0
+Name=Inside Offset, Hole, T43: 1/4 85A MILD STEEL
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut=0
+Overcut internal corners=1
+Overcut scale=0.5
+Path rules=
+Plunge rate=99.999799999999993
+Reverse cut direction=0
+Reverse open paths=0
+Start depth=0
+Start position=1
+Tool=43
+Type=JetOperation
+[Part 0/Operation0/Custom]
+[Part 0/Operation1]
+Angle threshold=0
+BelongsTo=-1
+CodeSnip=-1
+Comment=
+Contour method=1
+Corner threshold=0
+Cut depth=0
+Cut direction=0.5
+Cutting rules=1
+Enabled=1
+Feed rate=3302
+Finish allowance=0
+Hole Size=3.175
+ID=0
+Layer=Outside cut1
+Lead in=3.175
+Lead in type=1
+Lead out=3.175
+Lead out type=1
+Leadins on open paths=0
+Length=1.00076
+Loop corners=1
+Loop size=0
+Max chain length=0
+Minimise thermal distortion=0
+Name=Outside Offset, Outside cut1, T43: 1/4 85A MILD STEEL
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut=0
+Overcut internal corners=1
+Overcut scale=0.5
+Path rules=
+Plunge rate=99.999799999999993
+Reverse cut direction=0
+Reverse open paths=0
+Start depth=0
+Start position=1
+Tool=43
+Type=JetOperation
+[Part 0/Operation1/Custom]
+[pathRules]
+GlobalRule=-1
+[Table]
+MaxHeight=1000
+Origin=6
+RapidSpeed=2000
+tableOrigin=6
+TableX1=0
+TableX2=2794
+TableY1=0
+TableY2=1231.899999999999864
+ToolTime=0
+X1=0
+X2=2794
+Y1=0
+Y2=1231.899999999999864
+[Tool0]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=8255
+Hole Size=0
+Kerf width=0.6096
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=26-18 Gauge Fine cut MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=1
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool0/Custom]
+[Tool1]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=6350
+Hole Size=0
+Kerf width=1.143
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=16 Gauge Fine Cut MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=2
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool1/Custom]
+[Tool10]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=8255
+Hole Size=0
+Kerf width=0.6096
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=26-18 Gauge Fine cut STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=11
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool10/Custom]
+[Tool11]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=6096
+Hole Size=0
+Kerf width=0.9652
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=16 Gauge Fine Cut STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=12
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool11/Custom]
+[Tool12]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=5080
+Hole Size=0
+Kerf width=1.016
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=14 Gauge Fine Cut STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=13
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool12/Custom]
+[Tool13]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=3048
+Hole Size=0
+Kerf width=1.1938
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=12 Gauge Fine Cut STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=14
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool13/Custom]
+[Tool14]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1905
+Hole Size=0
+Kerf width=1.397
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=10 Gauge Fine Cut STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=15
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool14/Custom]
+[Tool15]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=6350
+Hole Size=0
+Kerf width=1.4732
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=14 Gauge 45A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=16
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool15/Custom]
+[Tool16]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=3556
+Hole Size=0
+Kerf width=1.5748
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=12 Gauge 45A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=17
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool16/Custom]
+[Tool17]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=2540
+Hole Size=0
+Kerf width=1.7018
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=10 Gauge 45A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=18
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool17/Custom]
+[Tool18]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1320.799999999999955
+Hole Size=0
+Kerf width=1.7526
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/16in 45A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=19
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool18/Custom]
+[Tool19]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=762
+Hole Size=0
+Kerf width=1.7526
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/4in 45A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=20
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool19/Custom]
+[Tool2]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=5080
+Hole Size=0
+Kerf width=1.2446
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=14 Gauge Fine Cut MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=3
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool2/Custom]
+[Tool20]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=8255
+Hole Size=0
+Kerf width=1.4986
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/32 & 1/16 45A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=21
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool20/Custom]
+[Tool21]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=5080
+Hole Size=0
+Kerf width=1.6002
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/32 45A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=22
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool21/Custom]
+[Tool22]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=2540
+Hole Size=0
+Kerf width=1.651
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/8 45A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=23
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool22/Custom]
+[Tool23]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1371.599999999999909
+Hole Size=0
+Kerf width=1.524
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/4 45A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=24
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool23/Custom]
+[Tool24]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=4826
+Hole Size=0
+Kerf width=1.651
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=10 Gauge 65A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=25
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool24/Custom]
+[Tool25]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=3556
+Hole Size=0
+Kerf width=1.7272
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/16 65A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=26
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool25/Custom]
+[Tool26]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=2286
+Hole Size=0
+Kerf width=1.778
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/4 65A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=27
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool26/Custom]
+[Tool27]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1143
+Hole Size=0
+Kerf width=1.9304
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/8 65A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=28
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool27/Custom]
+[Tool28]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=762
+Hole Size=0
+Kerf width=2.2352
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/2 65A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=29
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool28/Custom]
+[Tool29]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=584.199999999999932
+Hole Size=0
+Kerf width=2.286
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=5/8 65A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=30
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool29/Custom]
+[Tool3]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=3048
+Hole Size=0
+Kerf width=1.27
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=12 Gauge Fine Cut MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=4
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool3/Custom]
+[Tool30]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=6096
+Hole Size=0
+Kerf width=1.5748
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=10 Gauge 65A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=31
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool30/Custom]
+[Tool31]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=3937
+Hole Size=0
+Kerf width=1.7272
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/16 65A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=32
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool31/Custom]
+[Tool32]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=2032
+Hole Size=0
+Kerf width=1.8542
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/4 65A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=33
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool32/Custom]
+[Tool33]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1016
+Hole Size=0
+Kerf width=1.9304
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/8 65A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=34
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool33/Custom]
+[Tool34]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=660.399999999999977
+Hole Size=0
+Kerf width=2.286
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/2 65A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=35
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool34/Custom]
+[Tool35]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=9271
+Hole Size=0
+Kerf width=1.8542
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/16 65A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=36
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool35/Custom]
+[Tool36]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=7112
+Hole Size=0
+Kerf width=1.8796
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/8 65A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=37
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool36/Custom]
+[Tool37]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=2667
+Hole Size=0
+Kerf width=1.9304
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/4 65A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=38
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool37/Custom]
+[Tool38]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1270
+Hole Size=0
+Kerf width=2.1082
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/8 65A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=39
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool38/Custom]
+[Tool39]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=889
+Hole Size=0
+Kerf width=2.3114
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/2 65A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=40
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool39/Custom]
+[Tool4]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=2413
+Hole Size=0
+Kerf width=1.2954
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=10 Gauge Fine Cut MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=5
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool4/Custom]
+[Tool40]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=6350
+Hole Size=0
+Kerf width=1.7272
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=10 Gauge 85A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=41
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool40/Custom]
+[Tool41]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=4699
+Hole Size=0
+Kerf width=1.8034
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/16 85A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=42
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool41/Custom]
+[Tool42]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=3302
+Hole Size=0
+Kerf width=1.8542
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/4 85A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=43
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool42/Custom]
+[Tool43]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1778
+Hole Size=0
+Kerf width=1.9812
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/8 85A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=44
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool43/Custom]
+[Tool44]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1143
+Hole Size=0
+Kerf width=2.286
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/2 85A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=45
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool44/Custom]
+[Tool45]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=889
+Hole Size=0
+Kerf width=2.413
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=5/8 85A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=46
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool45/Custom]
+[Tool46]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=609.599999999999909
+Hole Size=0
+Kerf width=2.54
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/4 85A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=47
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool46/Custom]
+[Tool47]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=6985
+Hole Size=0
+Kerf width=1.651
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=10 Gauge 85A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=48
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool47/Custom]
+[Tool48]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=5080
+Hole Size=0
+Kerf width=1.7272
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/16 85A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=49
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool48/Custom]
+[Tool49]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=3302
+Hole Size=0
+Kerf width=1.778
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/4 85A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=50
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool49/Custom]
+[Tool5]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=6858
+Hole Size=0
+Kerf width=1.397
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=14 Gauge 45A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=6
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool5/Custom]
+[Tool50]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1651
+Hole Size=0
+Kerf width=2.032
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/8 85A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=51
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool50/Custom]
+[Tool51]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=914.399999999999977
+Hole Size=0
+Kerf width=2.3876
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/2 85A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=52
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool51/Custom]
+[Tool52]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=711.199999999999932
+Hole Size=0
+Kerf width=2.413
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=5/8 85A STAINLESS
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=53
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool52/Custom]
+[Tool53]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=7620
+Hole Size=0
+Kerf width=2.032
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/8 85A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=54
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool53/Custom]
+[Tool54]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=3302
+Hole Size=0
+Kerf width=1.905
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/4 85A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=55
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool54/Custom]
+[Tool55]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=2032
+Hole Size=0
+Kerf width=2.032
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/8 85A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=56
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool55/Custom]
+[Tool56]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1270
+Hole Size=0
+Kerf width=2.286
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/2 85A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=57
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool56/Custom]
+[Tool57]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=965.199999999999932
+Hole Size=0
+Kerf width=2.413
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=5/8 85A ALUMINUM
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=58
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool57/Custom]
+[Tool58]
+Code=
+Comment=
+Name=Code snippet
+Name_Edited=1
+Tool number=268435456
+Type=CodeTool
+[Tool58/Custom]
+[Tool6]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=4826
+Hole Size=0
+Kerf width=1.4478
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=12 Gauge 45A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=7
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool6/Custom]
+[Tool7]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=2540
+Hole Size=0
+Kerf width=1.5494
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=10 Gauge 45A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=8
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool7/Custom]
+[Tool8]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1778
+Hole Size=0
+Kerf width=1.651
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=3/16in 45A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=9
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool8/Custom]
+[Tool9]
+CodeSnip=-1
+Comment=
+Cut height=0
+Feed rate=1219.199999999999818
+Hole Size=0
+Kerf width=1.6764
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Name=1/4in 45A MILD STEEL
+Name_Edited=1
+Path rules=
+Pause at end of cut=0
+Pierce delay=0
+Pierce height=0
+Pierce type=0
+Plunge rate=0
+Tool number=10
+Type=PlasmaTool
+Use leadin settings=0
+Wiggle length=9.999979999999999
+[Tool9/Custom]
+[ToolChange]
+BeforeCode=
+Code=
+noSafeZ=0
+UseX=0
+UseY=0
+UseZ=0
+X=0
+Y=0
+Z=0
+[Variables]
+[Work]
+Bottom=0
+Clearance=50.799999999999997
+isPolygon=0
+Name=quarter_inch_steel
+Notes=
+Origin=6
+parkCode=
+ParkUseX=0
+ParkUseY=0
+ParkUseZ=0
+ParkX=0
+ParkY=0
+ParkZ=0
+PlungeSafety=25.399999999999999
+polyLayer=Color 1000000
+polyPart=0
+Show Notes=0
+Thickness=6.35
+X1=0
+X2=1524
+Y1=0
+Y2=127
+[Work/keepout]
+Clamp Clearance Height=RapidClearance
+Corner 1X=0
+Corner 1Y=0
+Corner 2X=0
+Corner 2Y=0
+Function=0
+Inside=1
+layer=Color 1000000
+part=0
+[BinaryDataStart]%  лллллТ▌@млллLB┬@   Outside cut1 /  ЪЪЪЪ                ─3333⌠,@    ╪?╪гз"@ ,╬Б+~@           ─лллл@   ÷=┌тжЖ?	         э╪
+   Yмллл#@               ╪?╪гз"@ ,╬Б+~@    ╟÷[>Ъ%@─лллл@   .╟÷[>Ъ%@effff@   t║=┌тжЖ©	   р╥J&"mШ©
+   tbffffЫ?               ╟÷[>Ъ%@─лллл@   ─≥≥≥≥96@─лллл@   лллллТ▌юмлллLB┬ю   -DTШ!Ы?	           
+    gffff	@              ─≥≥≥≥96@─лллл@   ─fffff9@ fffffЫ?   ═≥≥≥≥96@ dffffЫ?   -DTШ!Ы?	         $╫
+    gffff	@              ─fffff9@ fffffЫ?   ─fffff9@─≥≥≥≥9&ю   лллллТ▌юмлллLB┬ю   -DTШ!	@	           
+    gffff	@              ─fffff9@─≥≥≥≥9&ю   ═≥≥≥≥96@@3333⌠,ю   ═≥≥≥≥96@─≥≥≥≥9&ю   -DTШ!Ы?	   -DTШ!Ы?
+    gffff	@              ═≥≥≥≥96@@3333⌠,ю   ─≥≥≥≥96ю─3333⌠,ю   лллллТ▌юмлллLB┬ю   $-DTШ!Ы©	           
+    gffff	@              ─≥≥≥≥96ю─3333⌠,ю   `fffff9юю≥≥≥≥9&ю   ─≥≥≥≥96юю≥≥≥≥9&ю   -DTШ!Ы?	   -DTШ!	@
+    gffff	@              `fffff9юю≥≥≥≥9&ю   `fffff9ю dffffЫ?   лллллТ▌юмлллLB┬ю           	           
+    gffff	@              `fffff9ю dffffЫ?   ─≥≥≥≥96ю─лллл@   ─≥≥≥≥96ю dffffЫ?   -DTШ!Ы?	   -DTШ!Ы©
+    gffff	@              ─≥≥≥≥96ю─лллл@   ю╞÷[>Ъ%ю─лллл@   Тв ┬sЖpмлллLB┬ю   -DTШ!Ы?	    оoю 
+   л"÷vЮ                ю╞÷[>Ъ%ю─лллл@   @╩?╪гз"ю─+╬Б+~@   ю╞÷[>Ъ%ю fffff@   ╗÷=┌тжЖ©	   -DTШ!	@
+    fffffЫ?              @╩?╪гз"ю─+╬Б+~@           ─3333⌠,@   3╩ы+Х°/=ймллл@   ═÷=┌тжЖ?	   ╨÷=┌тжЖ©
+   ⌡лллл#@             Hole /  ЪЪЪЪ                 `ffffы?   ─ffffvю─лллл@           ─лллл@   -DTШ!Ы?	   -DTШ!	@
+   ─ffffv@              ─ffffvю─лллл@           ─≥≥≥≥A"@           ─лллл@   -DTШ!Ы?	   -DTШ!Ы©
+   ─ffffv@                      ─≥≥≥≥A"@   ─ffffv@─лллл@           ─лллл@   -DTШ!Ы?	           
+   ─ffffv@              ─ffffv@─лллл@            `ffffы?           ─лллл@   -DTШ!Ы?	   -DTШ!Ы?
+   ─ffffv@           Ъ ffffff	@ Ъ ffffff	@                ЪЪЪЪ     ╙щ╜╡@  │║╩ёыe@       #    $    0  ffffff	@1    2                               ffffff	@   ffffff	@               ЪЪЪЪ     ▒xХel╥1@  ─лллл@       #    $    0  ffffff	@1    2                             

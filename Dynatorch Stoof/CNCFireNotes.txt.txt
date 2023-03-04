@@ -1,0 +1,5 @@
+bottom right "Set Part Zero" set 0 0 for next part
+-Or "Does It Fit" tab "Part Center 0,0"
+--Zero X Zero Y
+"Joy Stick"
+GCode Line number to skip
