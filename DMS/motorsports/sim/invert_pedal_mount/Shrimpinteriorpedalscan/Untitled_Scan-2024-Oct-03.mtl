@@ -1,0 +1,62 @@
+# Apple ModelI/O MTL File: Untitled_Scan-2024-Oct-03.mtl
+
+newmtl 0
+	map_Kd texture-0-map-kd.jpg
+	Ka 0.433671 0.433671 0.433671
+	Ks 0 0 0
+	ao 0
+	subsurface 0
+	metallic 0 0 0
+	specularTint 0
+	roughness 0.433671 0.433671 0.433671
+	anisotropicRotation 0
+	sheen 0.05
+	sheenTint 0
+	clearCoat 0
+	clearCoatGloss 0
+
+newmtl 1
+	map_Kd texture-1-map-kd.jpg
+	Ka 0.433671 0.433671 0.433671
+	Ks 0 0 0
+	ao 0
+	subsurface 0
+	metallic 0 0 0
+	specularTint 0
+	roughness 0.433671 0.433671 0.433671
+	anisotropicRotation 0
+	sheen 0.05
+	sheenTint 0
+	clearCoat 0
+	clearCoatGloss 0
+
+newmtl 2
+	map_Kd texture-2-map-kd.jpg
+	Ka 0.433671 0.433671 0.433671
+	Ks 0 0 0
+	ao 0
+	subsurface 0
+	metallic 0 0 0
+	specularTint 0
+	roughness 0.433671 0.433671 0.433671
+	anisotropicRotation 0
+	sheen 0.05
+	sheenTint 0
+	clearCoat 0
+	clearCoatGloss 0
+
+newmtl 3
+	map_Kd texture-3-map-kd.jpg
+	Ka 0.433671 0.433671 0.433671
+	Ks 0 0 0
+	ao 0
+	subsurface 0
+	metallic 0 0 0
+	specularTint 0
+	roughness 0.433671 0.433671 0.433671
+	anisotropicRotation 0
+	sheen 0.05
+	sheenTint 0
+	clearCoat 0
+	clearCoatGloss 0
+
